@@ -36,7 +36,7 @@ public class MainTest {
     @DisplayName("WorkintechList doğru tipe sahip mi ?")
     public void testWorkintechListType(){
         WorkintechList list = new WorkintechList();
-        assertEquals(list instanceof ArrayList, true);
+        assertEquals(false, true);
         assertEquals(list instanceof List, true);
     }
     
